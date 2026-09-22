@@ -18,3 +18,15 @@ In order to use GitHub for version control, I had to connect my locally saved pr
 <img width="949" height="713" alt="image" src="https://github.com/user-attachments/assets/35418a2a-5b4a-412b-8674-d06ad5436840" />
 
 My next step will be to dig into the React docs to learn more about their UI components and how to get started building out a simple interface.
+
+### Week 4 - Building the Interface
+
+Learning more about the React Components last week helped me better understand why components are so useful for building a task-management dashboard. Building a task dashboard entirely in HTML would require a lot of repetition since many of the dashboard features are things that appear again and again in very similar containers (individual tasks, task status, groups of tasks in lists, etc.). Components are javascript functions that return html code. Because they are functions, they can be reused, and any changes made to the function applies across all uses, which removes the problem of making the same change across large blocks of HTML code. Further, "props" (or properties) are another React feature that pairs with components. Props allow for different values to be passed into different iterations of a component, which is what makes the components reusable. Moving forward this week, I will be working on setting up the various components that I will need for my dashboard.
+
+Another task I had set for myself this week was to practice using HTML and CSS to build out a simple interface. In attempting to do so, however, I realized that the Vite template I already downloaded in React includes HTML and CSS files that generate a dashboard when run. Since I'm not looking to reinvent the wheel and a solid interface file already exists, I will instead focus on adjusting that file to reflect the general layout that I want for my dashboard rather than build a new one entirely from scratch.
+
+## How I plan to reconfigure the Vite/React Interface Template
+
+<img width="928" height="593" alt="Interface Template Changes to be Made" src="https://github.com/user-attachments/assets/8630e034-a30e-4037-b8ba-2eb23572f95e" />
+
+
